@@ -1,5 +1,4 @@
 /* common */
-
 * {
     margin: 0;
     padding: 0;
@@ -12,35 +11,45 @@
     clear: both;
 }
 
-/* header */
+body {
+    width: 1440px;
+    margin: auto;
+}
 
+/* header */
 .site_header {
     height: 100px;
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 30px;
     position: relative;
-    background-color: #EBD2DB
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
+    width: 150px;
     position: absolute;
     left: 30px;
-    bottom: 15px;
-    float: left;
-    border-radius: 100%;
-    background-color: #BF4C2E;
+    bottom: 20px;
+}
+
+.vertical-line {
+    border-left: 1px solid #E5E5E5;
+    position: absolute;
+    left: 210px;
+    height: 100px;
+}
+
+/* nav */
+nav {
+    width: 1440px;
+    margin: 30px;
+}
+
+nav>.navigator {
+    color: #8C8C8C;
+    text-decoration: none;
+    margin-right: 5px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* main */
-
-main {
-    margin: 20px;
-}
-
 .hero > .img {
     height: 500px;
     margin-bottom: 20px;
@@ -79,7 +88,6 @@ div.container {
 }
 
 /* footer */
-
 footer.site_footer {
     height: 100px;
     border-radius: 20px;
