@@ -20,6 +20,7 @@ body {
 /* header */
 .site_header {
     height: 100px;
+    margin-top: 20px;
     position: relative;
 }
 
