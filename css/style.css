@@ -56,7 +56,6 @@ nav>.navigator {
 
 .hero > img{
     width: 1200px;
-    margin-bottom: 20px;
     border-radius: 50px;
 }
 
@@ -74,6 +73,12 @@ nav>.navigator {
    font-size: 1.5rem;
    padding: 20px;
    font-family: 'Raleway', sans-serif;
+   margin-bottom: 10px;
+}
+
+.title span {
+    font-size: 1rem;
+    color: #A1A1A1;
 }
 
 .sidebar {
@@ -119,12 +124,19 @@ aside img {
 .articles p {
     margin-top: 10px;
     line-height: 20px;
+    color: #A1A1A1;
 }
 
 /* footer */
 footer.site_footer {
     height: 100px;
-    background-color: #EFDFB4;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#heart {
+    color: #ff0000;
 }
 
 
