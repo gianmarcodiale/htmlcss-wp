@@ -63,10 +63,11 @@ nav > .navigator {
     height: 600px;
     object-fit: cover;
     border-radius: 10px;
+    filter: brightness(0.8);
 }
 
 .hero > div {
-    text-shadow: -1px 1px 4px black;
+    /* text-shadow: -1px 1px 4px black; */
 }
 
 .hero > .logo-text {
@@ -115,20 +116,21 @@ aside img {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border: 1px solid rgb(199, 185, 185);
     border-radius: 10px;
+    filter: brightness(0.9);
 }
 
 .main-page img {
     width: 100%;
     height: 200px;
-    border: 1px solid rgb(199, 185, 185);
     object-fit: cover;
     border-radius: 10px;
+    filter: brightness(0.9);
 }
 
 .articles h4 {
     margin-top: 10px;
+    font-weight: 400;
 }
 
 .articles p {
